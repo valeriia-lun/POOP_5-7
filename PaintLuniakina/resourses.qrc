@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/new/img">
+        <file>191781-200.png</file>
+        <file>about.png</file>
+        <file>circle.ico</file>
+        <file>circle.png</file>
+        <file>color.ico</file>
+        <file>color.png</file>
+        <file>filler.png</file>
+        <file>line.ico</file>
+        <file>line.png</file>
+        <file>palette.ico</file>
+        <file>pencil.ico</file>
+        <file>pencil.png</file>
+        <file>size.ico</file>
+    </qresource>
+</RCC>
