@@ -1,0 +1,48 @@
+#ifndef LUNIAKINA_DRAWINGPANEL_H
+#define LUNIAKINA_DRAWINGPANEL_H
+
+#include <QWidget>
+#include "canvas.h"
+#include <QLineEdit>
+
+class NewImage : public QWidget
+{
+    Q_OBJECT
+    
+private:
+    
+    
+    static int _width;
+    
+    static int _height;
+    
+    QLineEdit *_widthLine;
+    
+    QLineEdit *_heightLine;
+    
+    QPushButton *_create;
+
+
+    
+public:
+    
+    NewImage(Canvas *canevas );
+    
+    static int getWidth();
+    
+    static int getHeight();
+
+
+
+public slots:
+    
+    void createClick();
+    
+    void getWidthLine(QString lLine);
+    
+    void getHeightLine(QString hLine);
+
+
+
+};
+#endif //LUNIAKINA_DRAWINGPANEL_H
